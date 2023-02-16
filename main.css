@@ -6,71 +6,62 @@ body {
 }
 
 /*Header*/
+header {
+    background-color: black;
+    height: 460px;
+}
 
 .logo-container {
-    background-color: black;
-    display: flex;   
+    display: flex;
     flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
 }
 
 .logo {
     display: flex;
     justify-content: space-between;
-    color: white;
-    padding: 10px;
-    width: 70%;
-    margin: auto;
     margin-bottom: 60px;
-}
-
-.logo h2 {
-    margin: 0;
-    font-size: 20px;
-
 }
 
 .logo ul {
     display: flex;
-    margin: 0;
-    gap: 15px;
+    gap: 20px;
 }
 
 li {
     list-style-type: none;
+    font-size: 17px;
 }
 
 .text-one {
-    color: white;
     display: flex;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 60px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.titulo {
-    flex: 1;
-}
-
-.titulo h1 {
+.text-one h1 {
     margin-top: 0;
 }
 
-.titulo button {
-    background-color: lightblue;
-    padding: 3px 30px;
-    border-radius: 10px;
+.titulo {
+    max-width: 600px;
+    flex: auto;
 }
 
-.img-container {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
+.titulo button {
+    padding: 2px 30px;
+    background-color: lightblue;
+    font-size: 20px;
 }
 
 .img-container img {
     width: 300px;
     height: auto;
+    flex: auto;
 }
+
 
 /*Primera Seccion*/
 
