@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto" "Times New Roman" sans-serif;
+}
+
+/*Header*/
+
+.logo-container {
+    background-color: black;
+    display: flex;   
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 20px;
+
+}
+
+.logo ul {
+    display: flex;
+    margin: 0;
+    gap: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.text-one {
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.titulo {
+    flex: 1;
+}
+
+.titulo h1 {
+    margin-top: 0;
+}
+
+.titulo button {
+    background-color: lightblue;
+    padding: 3px 30px;
+    border-radius: 10px;
+}
+
+.img-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-container img {
+    width: 300px;
+    height: auto;
+}
+
+/*Primera Seccion*/
+
+.perritos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.contenedor-perritos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.perritos h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.uno {
+    max-width: 200px;
+}
+.uno img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 8px solid #698269;
+}
+.uno p {
+    text-align: center;
+}
+
+/*Segunda Seccion*/
+
+.cita {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.cita-contenedor {
+    max-width: 700px;
+    max-height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0px;
+}
+
+.cita1 {
+    font-size: 30px;
+    color: #7B8FA1;
+    font-style: italic;
+}
+
+.cita-contenedor .autor {
+    text-align: right;
+    font-weight: bold;
+}
